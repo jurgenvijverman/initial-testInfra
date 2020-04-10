@@ -6,3 +6,8 @@ provider "aws" {
 instance_type = "t2.micro"
    key_name = "awsInstances"
 }
+resource "aws_instance" "newExample" {
+ ami           = "ami-029ab77b83e832e7d"
+instance_type = "t2.micro"
+   key_name = "awsInstances2"
+}
