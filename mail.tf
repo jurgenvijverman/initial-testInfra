@@ -8,3 +8,8 @@ resource "aws_instance" "example" {
   key_name = "awsInstances"
 }
 
+resource "aws_instance" "redhat1" {
+  ami           = "i-01b28fabdcb5dcf14"
+  instance_type = "t2.micro"
+  key_name = "redhat1"
+}
