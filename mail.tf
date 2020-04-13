@@ -9,7 +9,7 @@ resource "aws_instance" "example" {
 }
 
 resource "aws_instance" "redhat1" {
-  ami           = "i-01b28fabdcb5dcf14"
+  ami           = "ami-01b28fabdcb5dcf14"
   instance_type = "t2.micro"
   key_name = "redhat1"
 }
